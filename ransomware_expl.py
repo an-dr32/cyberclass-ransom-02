@@ -148,4 +148,7 @@ if __name__ == "__main__":
 Este script permite cifrar y descifrar archivos y carpetas de manera segura utilizando AES con una contraseña. 
 Sin embargo, ten en cuenta que la seguridad de la implementación dependerá de cómo se gestione la contraseña y la sal. 
 Además, el script asume que el usuario recordará la contraseña utilizada para cifrar un archivo para poder descifrarlo posteriormente.
+
+Encrypt: python ransomware_expl.py -e /path/to/your/file_or_folder
+Decrypt: python ransomware_expl.py -d /path/to/your/encrypted_file_or_folder
 """
